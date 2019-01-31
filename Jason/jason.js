@@ -15,4 +15,6 @@ let xhttp = document.getElementbyId('mylist');
 			}
 		}
 	}
-	xhttp 
+	xhttp.OPEN("GET"."jasonplacerholder.typicode.com/todos");
+		  true;
+	 xhttp.send();
