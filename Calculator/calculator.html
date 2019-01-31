@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<style>
+		
+		td { width: 60px; height: 20ox;}
+		button{width: 85px; height: 40px; font-size: 15px;}
+		input{ width: 171px;height: 50px; font-size: 26px;}
+		.main { width: 359px; background: #9c9494cc; padding: 15px; display: block; margin: auto;margin-top: 80px;}
+		.title {text-align: center;}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<h2 class="title">My Simple Calculator</h2>	
+		<p style="text-align: center;">by:<br>Chrestopher pabalate</p>
+	<table>
+		<tr>
+			<td colspan="2"><input type="text" name="screen" id="screen"></td>
+			<td colspan="2"><input type="text" name="result" id="result"></td>
+		</tr>
+		<tr>
+			<td onclick="add('1')"><button>1</button></td>
+			<td onclick="add('2')"><button>2</button></td>
+			<td onclick="add('3')"><button>3</button></td>
+			<td onclick="add('*')"><button>*</button></td>
+		</tr>
+		<tr>
+			<td onclick="add('4')"><button>4</button></td>
+			<td onclick="add('5')"><button>5</button></td>
+			<td onclick="add('6')"><button>6</button></td>
+			<td onclick="add('/')"><button>/</button></td>
+		</tr>
+		<tr>
+			<td onclick="add('7')"><button>7</button></td>
+			<td onclick="add('8')"><button>8</button></td>
+			<td onclick="add('9')"><button>9</button></td>
+			<td onclick="add('-')"><button>-</button></td>
+		</tr>
+		<tr>
+			<td onclick="add('0')"><button>0</button></td>
+			<td onclick="reset()"><button>Clear</button></td>
+			<td onclick="equal()"><button>Equals</button></td>
+			<td onclick="add('+')"><button>+</button></td>
+		</tr>
+	</table>
+</div>
+<script type="text/javascript" src="calculate.js"></script>
+</body>
+</html>
