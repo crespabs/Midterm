@@ -30,4 +30,5 @@ function equal() {
 	var screen = document.getElementById('screen');
 	var result = eval(screen.value);
 	document.getElementById('result').value=result;
+	document.getElementById('screen').value="";
 }
